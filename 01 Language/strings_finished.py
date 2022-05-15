@@ -9,7 +9,8 @@ def main():
     s = "This is a string"
     print(s)
     
-    # Try combining them. This will cause an error:
+    # Try combining them. This will cause an error: 
+        #  TypeError: can only concatenate str (not "bytes") to str
     # print(s+b)
     
     # Bytes and strings need to be properly encoded and decoded
